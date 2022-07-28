@@ -86,3 +86,26 @@
   console.log("Sua idade em meses eh:", idade_meses);
   console.log("Sua idade em dias eh:", idade_dias);
 }
+
+{
+  let nome = "Gustavo É lindo";
+  console.log(nome[4]); // letra de índice 4 na string.
+  console.log(nome.charAt(0)); // letra de índice 4 na string.
+  console.log(`${nome} e muito fofo`);
+  console.log(nome.indexOf("lindo")); // qual indice começará a palavra lindo
+  console.log(nome.match(/[a-z]/g)); // retorna todas as letras minúsculas
+  console.log(nome.replace("lindo", "gato")); // troca a string
+}
+
+{
+  let num1 = 5;
+  let num2 = 4;
+  let num3 = 1 * "a";
+
+  console.log(num1 + num2);
+  console.log(num1.toString() + num2); // converte numero para string
+  console.log(typeof num1);
+  console.log(num1.toString(2)); // converter o numero em binario
+  console.log(num1.toFixed(2)); // numero de casas
+  console.log(Number.isNaN(num3)); // NaN = Not a Number
+}
